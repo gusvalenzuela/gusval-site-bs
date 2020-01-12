@@ -17,8 +17,13 @@ h1, h2, h3, h4 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
+.thin-bottom-border{
+    border-bottom: 2px solid #cccccc;
+}
+
 .text-teal{
     color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 .bg-teal{
@@ -51,6 +56,7 @@ p, a {
 
 .submit-btn {
     background-color: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .navBar {
