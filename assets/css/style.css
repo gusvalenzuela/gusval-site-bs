@@ -78,6 +78,13 @@ p, a {
     padding: 15px 0px;
     margin-top: -60px;
 }
+
+.form {
+    color: #777777;
+    font-size: medium;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: left;
+}
 /* 
 p:first-of-type {
     margin-top: 0;
@@ -113,13 +120,7 @@ input {
     margin: 10px 0px;
 }
 
-.form {
-    color: #777777;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    margin: 0;
-    text-align: left;
-    width: 920px;    
-}
+
 
 .form-input {
     clear: both;
