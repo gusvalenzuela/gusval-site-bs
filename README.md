@@ -2,7 +2,7 @@
 
 # Description
 
-Code for my responsive, mobile-friendly website / portfolio. Found at: https://gusvalenzuela.github.io/gusval-site/
+Code for my responsive, mobile-friendly website / portfolio. Found at: https://gusvalenzuela.github.io/gusval-site-bs/
 
 ## WEBSITE DETAILS
 
