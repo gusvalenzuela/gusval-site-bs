@@ -62,6 +62,22 @@ p, a {
     text-decoration: none;
     background-color: #4aaaa5;
 }
+.project {
+    float: left;   
+    margin: auto;
+    /* padding: 0% 3% 3% 0%; */
+    height: 146px;
+    width: 200px;    
+}
+.projname {
+    background: #4aaaa5;
+    color: #ffffff;
+    font-size: large;
+    position: relative;
+    bottom: 0;
+    padding: 15px 0px;
+    margin-top: -60px;
+}
 /* 
 p:first-of-type {
     margin-top: 0;
@@ -87,23 +103,9 @@ p:first-of-type {
 }
 
 
-.project {
-    float: left;   
-    margin: auto;
-    padding: 0% 3% 3% 0%;
-    height: 146px;
-    width: 200px;    
-}
 
-.projname {
-    background: #4aaaa5;
-    color: #ffffff;
-    font-size: large;
-    position: relative;
-    bottom: 0;
-    padding: 15px 0px;
-    margin-top: -60px;
-}
+
+
 
 input {
     width: 100%;
