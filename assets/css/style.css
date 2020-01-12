@@ -1,0 +1,150 @@
+/* 
+   * Teal color (used for headings and backgrounds): `#4aaaa5`
+   * Regular font color (used for paragraphs and all text besides the headings): `#777777`
+   * Main header background color: `#ffffff`
+   * Main header border color: `#cccccc`
+   * Footer background color: `#666666`
+   * Main content background color: `#ffffff`
+   * Main content border color: `#dddddd`
+
+*/
+
+body {
+    background-image: url(../images/diagmonds.png);
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.text-teal{
+    color: #4aaaa5;
+}
+
+.bg-teal{
+    background-color: #4aaaa5;
+}
+
+.text-ucd{
+    color: #ffffff;
+}
+.bg-ucd{
+    background-color: #ffffff;
+}
+
+p, a {
+    color: #777777;
+    text-decoration-color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: left;
+    font-kerning: auto;
+    line-height: 25px;
+}
+
+#biophoto {
+    float: left;
+    border: 2px white solid;
+    margin-right: 15px;
+    height: 160px;
+    width: 220px;
+}
+
+.submit-btn {
+    background-color: #4aaaa5;
+}
+
+.navBar {
+    text-decoration: none;
+    color: #777777;
+}
+.navBar:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #4aaaa5;
+}
+/* 
+p:first-of-type {
+    margin-top: 0;
+}
+
+
+.container {
+    clear: both;
+    min-height: 100%;
+    background-color: #ffffff;
+    padding: 25px;
+    width: 910px;
+    overflow: auto;
+    margin: auto;
+}
+
+.contentheader {
+    color: #4aaaa5;
+    text-align: left;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    padding-bottom: 17px;
+    padding-top: 5px;
+}
+
+
+.project {
+    float: left;   
+    margin: auto;
+    padding: 0% 3% 3% 0%;
+    height: 146px;
+    width: 200px;    
+}
+
+.projname {
+    background: #4aaaa5;
+    color: #ffffff;
+    font-size: large;
+    position: relative;
+    bottom: 0;
+    padding: 15px 0px;
+    margin-top: -60px;
+}
+
+input {
+    width: 100%;
+    text-align: left;
+    margin: 10px 0px;
+}
+
+.form {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0;
+    text-align: left;
+    width: 920px;    
+}
+
+.form-input {
+    clear: both;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 900px;
+}
+
+button {
+    color: #ffffff;
+    float: left;
+    border: none;
+    padding: 10px 30px;
+    margin: 0;
+    text-decoration: none;
+    background: #4aaaa5;
+    font-size: 1em;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+*/
+
+.footer {
+    background-color: #666666;
+    color: #ffffff;
+    border-top: 8px solid #4aaaa5;
+} 
