@@ -40,6 +40,9 @@ h1, h2, h3, h4 {
 a {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+a:hover{
+    text-decoration: none;
+}
 
 p {
     color: #777777;
@@ -73,22 +76,35 @@ p {
     text-decoration: none;
     background-color: #4aaaa5;
 }
+.projects-container{
+    display: inline-block;
+}
 .project {
     float: left;   
     margin: auto;
     /* padding: 0% 3% 3% 0%; */
     height: 146px;
-    width: 200px;    
+    width: 200px;
+    box-shadow: 1px 1px #777777;
+}
+.project:hover {
+    opacity: .5;
 }
 .projname {
-    background: #4aaaa5;
+    background: #4aaaa5d7;
     color: #ffffff;
     text-align: center;
-    font-size: medium;
+    font-size: small;
     position: relative;
     bottom: 0;
-    padding: 15px 0px;
-    margin-top: -60px;
+    padding: 5px 0px;
+    margin-top: -70px;
+}
+.project-anchor{
+    text-decoration: none;
+}
+.projname:hover{
+    background:#4aaaa5;
 }
 
 .form {
@@ -96,6 +112,9 @@ p {
     font-size: medium;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     text-align: left;
+}
+.information-container{
+    display: inline-block;
 }
 /* 
 p:first-of-type {
@@ -163,3 +182,10 @@ button {
     color: #ffffff;
     border-top: 8px solid #4aaaa5;
 } 
+.footer-link{
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer-link:hover{
+    color: #4aaaa5;
+}

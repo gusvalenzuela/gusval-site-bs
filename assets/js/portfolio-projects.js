@@ -1,67 +1,69 @@
-// current sample 
-/* 
-<div class="project mr-3 mb-3">
-    <a href="https://gusvalenzuela.github.io/quiz-game/" target="_blank">
-    <img src="./assets/images/quizgame-bg.jpg" alt="Quiz Game"></a>
-    <div class="projname" style="font-size: 14px;">
-        QuizDown (Timed quiz game)
-    </div>
-</div>
-*/
-
 var projectsArray = [
     {
-        index: 0,
+        // index: 0,
         id: `quizDownGame`,
-        version: `1.0`,
+        version: `1.1`,
         title: "",
-        name: `QuizDown (Timed Quiz Game)`,
+        name: `QuizDown`,
+        lead: `Timed Quiz Game`,
         url: `https://gusvalenzuela.github.io/quiz-game/`,
-        image: `./assets/images/quizgame-bg.jpg`,
+        img_src: `./assets/images/quizgame-bg.jpg`,
+        img_alt: `Lady with glasses browsing the computer while chewing a pencil`,
     },
     {
-        index: 1,
-        id: `felineCheesyGame`,
-        version: "1.0",
+        // index: 1,
+        id: `hungryHippos`,
+        version: "2.0",
         title: "",
-        name: `"Feline Cheesy" Game`,
-        url: `https://scratch.mit.edu/projects/351865503`,
-        image: `./assets/images/scratchmouse-filter.jpg`,
+        name: `Hungry Hip-Po's`,
+        lead: `Grocery List Builder`,
+        url: `https://gusvalenzuela.github.io/Hungry-Hippos-GRV/`,
+        img_src: `./assets/images/scratchmouse-filter.jpg`,
+        img_alt: ``,
     },
     {
-        index: 2,
+        // index: 2,
         id: `passwordGenerator`,
-        version: "1.0",
+        version: "1.2",
         title: "",
         name: `Password Generator`,
-        url: `https://scratch.mit.edu/projects/351865503`,
-        image: `./assets/images/scratchmouse-filter.jpg`,
+        lead: ``,
+        url: `https://gusvalenzuela.github.io/pswd-generator/`,
+        img_src: `./assets/images/marcos-mayer-8_NI1WTqCGY-unsplash.jpg`,
+        img_alt: ``,
     },
     {
-        index: 3,
+        // index: 3,
         id: `dayPlanner`,
         version: "1.0",
         title: "",
         name: `Work Day Planner`,
-        url: `https://scratch.mit.edu/projects/351865503`,
-        image: `./assets/images/scratchmouse-filter.jpg`,
+        lead: ``,
+        url: `https://gusvalenzuela.github.io/day-planner-bootcamp/`,
+        img_src: `./assets/images/marten-bjork-rH8O0FHFpfw-unsplash.jpg`,
+        img_alt: ``,
     },
     {
-        index: 4,
+        // index: 4,
         id: `weatherApp`,
-        version: "1.0",
+        version: "1.1",
         title: "",
         name: `Weather App`,
-        url: `https://scratch.mit.edu/projects/351865503`,
-        image: `./assets/images/scratchmouse-filter.jpg`,
+        lead: ``,
+        url: `https://gusvalenzuela.github.io/weather-youLikeIt-orNot/`,
+        img_src: `./assets/images/pedro-lastra-Nyvq2juw4_o-unsplash.jpg`,
+        img_alt: ``,
     },
     {
-        index: 5,
+        // index: 5,
         id: `other`,
-        version: "1.0",
+        version: "0.0",
         title: "",
         name: `Coming Soon!`,
-        url: `https://scratch.mit.edu/projects/351865503`,
-        image: `./assets/images/scratchmouse-filter.jpg`,
+        lead: ``,
+        url: `#`,
+        img_src: `./assets/images/cats-300.jpg`,
+        img_alt: ``,
     }
 ]
+

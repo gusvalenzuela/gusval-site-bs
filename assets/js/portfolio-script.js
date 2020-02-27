@@ -1,39 +1,49 @@
-const projectsContainer = document.querySelector(`#projectsContainer`)
+const projectsContainer = document.querySelector(`#projects-container`)
 
+init()
 
-// current sample 
-/* 
-<div class="project mr-3 mb-3">
-    <a href="https://gusvalenzuela.github.io/quiz-game/" target="_blank">
-    <img src="./assets/images/quizgame-bg.jpg" alt="Quiz Game"></a>
-    <p class="projname" style="font-size: 14px;">
-        QuizDown (Timed quiz game)
-    </p>
-</div>
-*/
-
-function createNewProjCont(){
-    // loop through array of objects and print as many as needed
-    for(i=0;i<projectsArray.length;i++){
-        console.log(`project #` + i + ` is: ` + projectsArray[i].name)
-    }
-    var div = document.createElement(`div`)
-    var img = document.createElement(`img`)
-    var para = document.createElement(`p`)
-    div.setAttribute(`class`,`project mr-3 mb-3`)
-    para.setAttribute(`class`, `projname text-truncate`)
+function init(){
+    createNewProjCont()
 }
 
-projectsContainer.addEventListener(`click`,function(e){
-    var el = e.target
-    console.log(el)
+function createNewProjCont(){
+    projectsContainer.innerHTML = ``
+    
+    // loop through array of objects and print as many as needed
+    projectsArray.forEach(function(val){
+        // console.log(val.name)
+        var div = document.createElement(`div`)
+        var anchor = document.createElement(`a`)
+        var img = document.createElement(`img`)
+        var para = document.createElement(`p`)
+        
+        anchor.setAttribute(`href`,val.url)
+        anchor.setAttribute(`target`,`_blank`)
+        anchor.setAttribute(`class`,`project-anchor`)
+        img.setAttribute(`id`,val.id)
+        img.setAttribute(`class`,`project-img`)
+        img.setAttribute(`src`,val.img_src)
+        img.setAttribute(`alt`,val.img_alt)
+        img.setAttribute(`title`,val.name)
+        img.setAttribute(`name`,val.name)
+        div.setAttribute(`class`,`project mr-3 mb-3`)
+        para.setAttribute(`class`, `projname text-truncate`)
+        para.innerHTML = `${val.name}<br>${val.lead}`
+        anchor.appendChild(img)
+        div.appendChild(anchor)
+        anchor.appendChild(para)
+        projectsContainer.appendChild(div)
+    })
+}
 
-    switch(el.id){
-        case `quizDownGame`:
-            alert(`this is the Quiz Game Domain`)
-            break
-        case `felineCheesyGame`:
-            alert(`This is the feline cheesy game!`)
-            break
-    }
-})
+// if only linking to other pages, anchor tags are fine
+// projectsContainer.addEventListener(`click`,function(e){
+//     var el = e.target
+//     // console.log(el)
+//     for(i=0;i<projectsArray.length;i++){
+//         if(el.id === projectsArray[i].id){
+//             console.log(`This is the: "` + projectsArray[i].name + `" project`)
+//         }
+//     }
+
+// })
