@@ -66,17 +66,28 @@ p {
 }.submit-btn:hover{
     opacity: .75;
 }
-
+.navBar-name{
+    align-self: center;
+    padding: 1em;
+    text-align: center;
+}
 .navBar {
     text-decoration: none;
     color: #777777;
+    align-self: center;
+    padding: 1.5em 0;
 }
 .navBar:hover {
     color: #ffffff;
     text-decoration: none;
     background-color: #4aaaa5;
 }
-.projects-container{
+@media screen and (max-width: 768px){
+    .navBar{
+        padding: .5em 0;
+    }
+}
+#projects-container{
     display: inline-block;
 }
 .project {
@@ -88,7 +99,7 @@ p {
     box-shadow: 1px 1px #777777;
 }
 .project:hover {
-    opacity: .5;
+    opacity: .69;
 }
 .projname {
     background: #4aaaa5d7;
@@ -97,7 +108,7 @@ p {
     font-size: small;
     position: relative;
     bottom: 0;
-    padding: 5px 0px;
+    padding: 7px 0px;
     margin-top: -70px;
 }
 .project-anchor{
