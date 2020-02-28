@@ -52,12 +52,12 @@ p {
     line-height: 25px;
 }
 
-#biophoto {
+.biophoto {
     float: left;
     border: 2px white solid;
     margin-right: 15px;
-    height: 160px;
-    width: 220px;
+    max-height: 160px;
+    max-width: 220px;
 }
 
 .submit-btn {
