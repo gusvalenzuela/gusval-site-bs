@@ -9,7 +9,7 @@ var projectsArray = [
         description: `An app that dynamically uses Node.js (w/ Express & Handlebars) and mySQL to virtually create burgers and move them from uneaten to eaten lists.`,
         url: `https://great-burger-app.herokuapp.com/`,
         repo_url: `https://github.com/gusvalenzuela/great-burger-tracker-app`,
-        img_src: `./assets/images/cats-300.jpg`,
+        img_src: `./assets/images/great-burger-300.jpg`,
         img_alt: ``,
     },
     {

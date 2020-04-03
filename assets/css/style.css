@@ -59,8 +59,8 @@ p {
     float: left;
     border: 2px white solid;
     margin-right: 15px;
-    max-height: 160px;
-    max-width: 220px;
+    /* max-height: 160px; */
+    /* max-width: 220px; */
 }
 
 .submit-btn {
