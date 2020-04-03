@@ -1,12 +1,25 @@
 var projectsArray = [
     {
+        // index: 5,
+        id: `great-burger-app`,
+        version: "1.0",
+        title:`Great Burger`,
+        name: `Great Burger!`,
+        lead: ``,
+        description: `An app that dynamically uses Node.js (w/ Express & Handlebars) and mySQL to virtually create burgers and move them from uneaten to eaten lists.`,
+        url: `https://great-burger-app.herokuapp.com/`,
+        repo_url: `https://github.com/gusvalenzuela/great-burger-tracker-app`,
+        img_src: `./assets/images/cats-300.jpg`,
+        img_alt: ``,
+    },
+    {
         // index: 0,
         id: `quizDownGame`,
         version: `1.1`,
         title:``,
         name: `QuizDown?!`,
         lead: ``,
-        description: `A timed quiz game with multiple quizzes to choose from`,
+        description: `A timed quiz game with multiple quizzes to choose from.`,
         url: `https://gusvalenzuela.github.io/quiz-game/`,
         repo_url: `https://github.com/gusvalenzuela/quiz-game`,
         img_src: `./assets/images/quizgame-bg.jpg`,
@@ -64,18 +77,6 @@ var projectsArray = [
         img_src: `./assets/images/pedro-lastra-Nyvq2juw4_o-unsplash.jpg`,
         img_alt: `city skyline with body of water in the background`,
     },
-    {
-        // index: 5,
-        id: `other`,
-        version: "0.0",
-        title:``,
-        name: `Coming Soon!`,
-        lead: ``,
-        description: ``,
-        url: `#`,
-        repo_url: `#`,
-        img_src: `./assets/images/cats-300.jpg`,
-        img_alt: ``,
-    }
+    
 ]
 

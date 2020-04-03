@@ -19,6 +19,7 @@
   "homepage": "https://github.com/gusvalenzuela/gusval-site-bs#readme",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.12.1",
+    "materialize": "^1.0.0",
     "materialize-css": "^1.0.0-rc.2"
   }
 }

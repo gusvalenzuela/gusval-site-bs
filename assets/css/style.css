@@ -8,9 +8,12 @@
    * Main content border color: `#dddddd`
 
 */
-
+html{
+    height: auto;
+}
 body {
     background-image: url(../images/diagmonds.png);
+    height: auto;
 }
 
 h1, h2, h3, h4 {
